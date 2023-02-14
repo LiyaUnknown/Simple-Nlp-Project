@@ -8,7 +8,7 @@ def test() :
 
     nltk.download('stopwords')
     stop_words = set(stopwords.words('english'))
-    grammar = "NP: {<DT>?<JJ>*<NN>}
+    grammar = "NP: {<DT>?<JJ>*<NN>}"
 
     # work on sentences
     
